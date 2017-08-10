@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=${charset}"/>
+    <link rel="SHORTCUT ICON" href="img/clover.ico" />
+    <link rel="stylesheet" href="style.css" media="all"/>
+    <link rel="stylesheet" href="aui/css/aui.min.css" media="all"/>
+    <link rel="stylesheet" href="aui/css/aui-experimental.min.css" media="all"/>
+    <!--[if IE 9]><link rel="stylesheet" href="aui/css/aui-ie9.min.css" media="all"/><![endif]-->
+
+    <script src="jquery-1.8.3.min.js" type="text/javascript"></script>
+    <script src="aui/js/aui.min.js" type="text/javascript"></script>
+    <script src="aui/js/aui-experimental.min.js" type="text/javascript"></script>
+    <script src="aui/js/aui-soy.min.js" type="text/javascript"></script>
+    <script src="clover.js" type="text/javascript"></script>
+
+    <title>Clover</title>
+</head>
+
+<body style="min-width: 200px;">
+
+<div class="aui-group">
+    <div class="aui-item">
+        <div class="dashboard-widget">
+            <header class="dashboard-widget-header">
+                <h3>
+                    <label title="A summary of the projects overall coverage.">Coverage</label>
+                    <label class="aui-button aui-button-subtle" onclick="self.location='cloverview:coverage'">
+                        <span class="aui-icon aui-icon-small aui-iconfont-arrows-right"></span>
+                    </label>
+                </h3>
+            </header>
+            <div class="dashboard-widget-content">
+                
+                <span>
+                    13 classes,
+                    188 /
+                    847 elements
+                </span>
+                <div style="display: table; width: 100%">
+<div class="barGraphValue"><span class="sortValue">0.22195986</span>22.2%</div><div style="display: table-cell">
+ <div title="22.2% Covered"  style="min-width:200px;" class="barNegative contribBarNegative "><div class="barPositive contribBarPositive " style="width:22.2%"></div></div></div></div>
+            </div>
+        </div>
+
+        <div class="dashboard-widget">
+            <header class="dashboard-widget-header">
+                <h3>
+                    <label title="A summary of results of all tests that were run.">Test results</label>
+                    <label class="aui-button aui-button-subtle" onclick="self.location='cloverview:testresults'">
+                        <span class="aui-icon aui-icon-small aui-iconfont-arrows-right"></span>
+                    </label>
+                </h3>
+            </header>
+            <div class="dashboard-widget-content">
+                                <span>
+                    0 / 0 tests
+                    (0 secs)
+                </span>
+                                        <div class="aui-message aui-message-warning">
+        <p class="title">
+            <strong>No test results</strong>
+        </p>
+        <p>No test results could be found. Please ensure that you have instrumented your unit tests correctly.</p>
+    </div>
+                            </div>
+        </div>
+
+    
+    
+        <div class="dashboard-widget">
+            <header class="dashboard-widget-header">
+                <h3>
+                    <label title="The most complex packages in the project.">Most complex packages</label>
+                    <label class="aui-button aui-button-subtle" onclick="self.location='cloverview:coverage'">
+                        <span class="aui-icon aui-icon-small aui-iconfont-arrows-right"></span>
+                    </label>
+                </h3>
+            </header>
+            <div class="dashboard-widget-content">
+                
+                <table>
+                                            
+                                                <tr><td>1. </td><td><div style="display: table; width: 100%">
+<div class="barGraphValue"><span class="sortValue">0.046961326</span>4.7%</div><div style="display: table-cell">
+ <div title="4.7% Covered"  style="min-width:40px;" class="barNegative contribBarNegative "><div class="barPositive contribBarPositive " style="width:4.7%"></div></div></div></div></td><td><a class="tag" href="javapkg:stubs">stubs</a> (130)</td></tr>
+                                            
+                                                <tr><td>2. </td><td><div style="display: table; width: 100%">
+<div class="barGraphValue"><span class="sortValue">0.35257733</span>35.3%</div><div style="display: table-cell">
+ <div title="35.3% Covered"  style="min-width:40px;" class="barNegative contribBarNegative "><div class="barPositive contribBarPositive " style="width:35.3%"></div></div></div></div></td><td><a class="tag" href="javapkg:TestUnit">TestUnit</a> (116)</td></tr>
+                                    </table>
+            </div>
+        </div>
+
+        <div class="dashboard-widget">
+            <header class="dashboard-widget-header">
+                <h3>
+                    <label title="The most complex classes in the project.">Most complex classes</label>
+                    <label class="aui-button aui-button-subtle" onclick="self.location='cloverview:coverage'">
+                        <span class="aui-icon aui-icon-small aui-iconfont-arrows-right"></span>
+                    </label>
+                </h3>
+            </header>
+            <div class="dashboard-widget-content">
+                <table>
+                                            
+                                                <tr><td>1. </td><td><div style="display: table; width: 100%">
+<div class="barGraphValue"><span class="sortValue">0.0</span>0%</div><div style="display: table-cell">
+ <div title="0% Covered"  style="min-width:40px;" class="barNegative contribBarNegative "><div class="barPositive contribBarPositive " style="width:0%"></div></div></div></div></td><td>
+                            <a  class="tag" href="javaclass:/TestUnit/ScheduleMakerController.java#11_14"  title="TestUnit.ScheduleMakerController">ScheduleMakerController</a>
+                            (57)
+                        </td></tr>
+                                            
+                                                <tr><td>2. </td><td><div style="display: table; width: 100%">
+<div class="barGraphValue"><span class="sortValue">0.0</span>0%</div><div style="display: table-cell">
+ <div title="0% Covered"  style="min-width:40px;" class="barNegative contribBarNegative "><div class="barPositive contribBarPositive " style="width:0%"></div></div></div></div></td><td>
+                            <a  class="tag" href="javaclass:/stubs/ClassDetails.java#15_14"  title="stubs.ClassDetails">ClassDetails</a>
+                            (39)
+                        </td></tr>
+                                            
+                                                <tr><td>3. </td><td><div style="display: table; width: 100%">
+<div class="barGraphValue"><span class="sortValue">0.74418604</span>74.4%</div><div style="display: table-cell">
+ <div title="74.4% Covered"  style="min-width:40px;" class="barNegative contribBarNegative "><div class="barPositive contribBarPositive " style="width:74.4%"></div></div></div></div></td><td>
+                            <a  class="tag" href="javaclass:/TestUnit/ClassDetails.java#17_14"  title="TestUnit.ClassDetails">ClassDetails</a>
+                            (38)
+                        </td></tr>
+                                            
+                                                <tr><td>4. </td><td><div style="display: table; width: 100%">
+<div class="barGraphValue"><span class="sortValue">0.0</span>0%</div><div style="display: table-cell">
+ <div title="0% Covered"  style="min-width:40px;" class="barNegative contribBarNegative "><div class="barPositive contribBarPositive " style="width:0%"></div></div></div></div></td><td>
+                            <a  class="tag" href="javaclass:/stubs/ScheduleOptions.java#9_14"  title="stubs.ScheduleOptions">ScheduleOptions</a>
+                            (32)
+                        </td></tr>
+                                            
+                                                <tr><td>5. </td><td><div style="display: table; width: 100%">
+<div class="barGraphValue"><span class="sortValue">0.0</span>0%</div><div style="display: table-cell">
+ <div title="0% Covered"  style="min-width:40px;" class="barNegative contribBarNegative "><div class="barPositive contribBarPositive " style="width:0%"></div></div></div></div></td><td>
+                            <a  class="tag" href="javaclass:/stubs/UniversityConnection.java#11_14"  title="stubs.UniversityConnection">UniversityConnection</a>
+                            (19)
+                        </td></tr>
+                                    </table>
+            </div>
+        </div>
+
+        <div class="dashboard-widget">
+            <header class="dashboard-widget-header">
+                <h3>
+                    <label title="A list of classes that have the highest complexity and least coverage. These pose the greatest potential risk to the project.">
+                        Top 12 project risks</label>
+                    <label class="aui-button aui-button-subtle" onclick="self.location='cloverview:toprisks'">
+                        <span class="aui-icon aui-icon-small aui-iconfont-arrows-right"></span>
+                    </label>
+                </h3>
+            </header>
+            <div class="dashboard-widget-content">
+                <div>
+                    
+                                                                            <a class="tag" href="javaclass:/TestUnit/ClassDetails.java#17_14"
+                               style="font-size: 15px;color:#89c495"
+                               title="Average Method Complexity - 2.375 , Coverage - 74.4% ">ClassDetails</a>
+                                            
+                                                                            <a class="tag" href="javaclass:/TestUnit/ScheduleMakerController.java#11_14"
+                               style="font-size: 25px;color:#d04437"
+                               title="Average Method Complexity - 5.7 , Coverage - 0% ">ScheduleMakerController</a>
+                                            
+                                                                            <a class="tag" href="javaclass:/stubs/Course.java#9_14"
+                               style="font-size: 14px;color:#d9695f"
+                               title="Average Method Complexity - 1.875 , Coverage - 14.1% ">Course</a>
+                                            
+                                                                            <a class="tag" href="javaclass:/stubs/Time.java#4_14"
+                               style="font-size: 11px;color:#e7a19b"
+                               title="Average Method Complexity - 1 , Coverage - 44.4% ">Time</a>
+                                            
+                                                                            <a class="tag" href="javaclass:/stubs/ClassDetails.java#15_14"
+                               style="font-size: 15px;color:#d04437"
+                               title="Average Method Complexity - 2.294 , Coverage - 0% ">ClassDetails</a>
+                                            
+                                                                            <a class="tag" href="javaclass:/stubs/UniversityConnection.java#11_14"
+                               style="font-size: 13px;color:#d04437"
+                               title="Average Method Complexity - 1.727 , Coverage - 0% ">UniversityConnection</a>
+                                            
+                                                                            <a class="tag" href="javaclass:/stubs/ScheduleOptions.java#9_14"
+                               style="font-size: 11px;color:#d04437"
+                               title="Average Method Complexity - 1 , Coverage - 0% ">ScheduleOptions</a>
+                                            
+                                                                            <a class="tag" href="javaclass:/TestUnit/ScheduleMakerControllerTests.java#16_14"
+                               style="font-size: 11px;color:#d04437"
+                               title="Average Method Complexity - 1 , Coverage - 0% ">ScheduleMakerControllerTests</a>
+                                            
+                                                                            <a class="tag" href="javaclass:/stubs/Schedule.java#5_14"
+                               style="font-size: 11px;color:#d04437"
+                               title="Average Method Complexity - 1 , Coverage - 0% ">Schedule</a>
+                                            
+                                                                            <a class="tag" href="javaclass:/stubs/FacultyStaff.java#4_14"
+                               style="font-size: 11px;color:#d04437"
+                               title="Average Method Complexity - 1 , Coverage - 0% ">FacultyStaff</a>
+                                            
+                                                                            <a class="tag" href="javaclass:/stubs/Professor.java#4_14"
+                               style="font-size: 11px;color:#d04437"
+                               title="Average Method Complexity - 1 , Coverage - 0% ">Professor</a>
+                                            
+                                                                            <a class="tag" href="javaclass:/stubs/Term.java#4_14"
+                               style="font-size: 9px;color:#d04437"
+                               title="Average Method Complexity - 0 , Coverage -  -  ">Term</a>
+                                                            </div>
+            </div>
+        </div>
+
+            <div class="dashboard-widget">
+            <header class="dashboard-widget-header">
+                <h3>
+                    <label title="A list of methods least tested, ranked in decreasing complexity.">Least tested methods</label>
+                    <label class="aui-button aui-button-subtle" onclick="self.location='cloverview:quickwins'">
+                        <span class="aui-icon aui-icon-small aui-iconfont-arrows-right"></span>
+                    </label>
+                </h3>
+            </header>
+            <div class="dashboard-widget-content">
+                <table>
+                                            <tr>
+                            <td align="right">1.</td>
+                            <td align="right">0%</td>
+                            <td style="padding-left:25px; text-indent:-25px;">                                <a class="tag" title="ScheduleMakerController.createSchedule(ScheduleOptions)&#160;:&#160;Collection&lt;Schedule&gt;" href="javamethod:/TestUnit/ScheduleMakerController.java#71_5">ScheduleMakerController.createSchedule(<wbr>ScheduleOptions)<wbr>&#160;:&#160;Collection&lt;Schedule&gt;</a> (29)
+                            </td>
+                        </tr>
+                                            <tr>
+                            <td align="right">2.</td>
+                            <td align="right">0%</td>
+                            <td style="padding-left:25px; text-indent:-25px;">                                <a class="tag" title="ClassDetails.hasConflict(ClassDetails)&#160;:&#160;boolean" href="javamethod:/stubs/ClassDetails.java#59_5">ClassDetails.hasConflict(<wbr>ClassDetails)<wbr>&#160;:&#160;boolean</a> (18)
+                            </td>
+                        </tr>
+                                            <tr>
+                            <td align="right">3.</td>
+                            <td align="right">0%</td>
+                            <td style="padding-left:25px; text-indent:-25px;">                                <a class="tag" title="ScheduleMakerController.createSchedule(String,Collection&lt;String&gt;,String,String)&#160;:&#160;Collection&lt;Schedule&gt;" href="javamethod:/TestUnit/ScheduleMakerController.java#189_5">ScheduleMakerController.createSchedule(<wbr>String,<wbr>Collection&lt;String&gt;,<wbr>String,<wbr>String)<wbr>&#160;:&#160;Collection&lt;Schedule&gt;</a> (11)
+                            </td>
+                        </tr>
+                                            <tr>
+                            <td align="right">4.</td>
+                            <td align="right">0%</td>
+                            <td style="padding-left:25px; text-indent:-25px;">                                <a class="tag" title="ScheduleMakerControllerTests.testCreateSchedule1()&#160;:&#160;void" href="javamethod:/TestUnit/ScheduleMakerControllerTests.java#30_2">ScheduleMakerControllerTests.testCreateSchedule1(<wbr>)<wbr>&#160;:&#160;void</a> (1)
+                            </td>
+                        </tr>
+                                            <tr>
+                            <td align="right">5.</td>
+                            <td align="right">0%</td>
+                            <td style="padding-left:25px; text-indent:-25px;">                                <a class="tag" title="Course.getClasses(String,Collection&lt;String&gt;)&#160;:&#160;Collection&lt;ClassDetails&gt;" href="javamethod:/stubs/Course.java#75_5">Course.getClasses(<wbr>String,<wbr>Collection&lt;String&gt;)<wbr>&#160;:&#160;Collection&lt;ClassDetails&gt;</a> (6)
+                            </td>
+                        </tr>
+                                            <tr>
+                            <td align="right">6.</td>
+                            <td align="right">0%</td>
+                            <td style="padding-left:25px; text-indent:-25px;">                                <a class="tag" title="ScheduleMakerController.findSchedule(Collection&lt;Collection&lt;ClassDetails&gt;&gt;,int,Collection&lt;Schedule&gt;)&#160;:&#160;void" href="javamethod:/TestUnit/ScheduleMakerController.java#42_5">ScheduleMakerController.findSchedule(<wbr>Collection&lt;Collection&lt;ClassDetails&gt;&gt;,<wbr>int,<wbr>Collection&lt;Schedule&gt;)<wbr>&#160;:&#160;void</a> (5)
+                            </td>
+                        </tr>
+                                            <tr>
+                            <td align="right">7.</td>
+                            <td align="right">0%</td>
+                            <td style="padding-left:25px; text-indent:-25px;">                                <a class="tag" title="ScheduleMakerControllerTests.testCreateSchedule2()&#160;:&#160;void" href="javamethod:/TestUnit/ScheduleMakerControllerTests.java#94_2">ScheduleMakerControllerTests.testCreateSchedule2(<wbr>)<wbr>&#160;:&#160;void</a> (1)
+                            </td>
+                        </tr>
+                                            <tr>
+                            <td align="right">8.</td>
+                            <td align="right">0%</td>
+                            <td style="padding-left:25px; text-indent:-25px;">                                <a class="tag" title="ScheduleMakerController.conflict(Collection)&#160;:&#160;boolean" href="javamethod:/TestUnit/ScheduleMakerController.java#13_5">ScheduleMakerController.conflict(<wbr>Collection)<wbr>&#160;:&#160;boolean</a> (5)
+                            </td>
+                        </tr>
+                                            <tr>
+                            <td align="right">9.</td>
+                            <td align="right">0%</td>
+                            <td style="padding-left:25px; text-indent:-25px;">                                <a class="tag" title="Course.getClasses()&#160;:&#160;Collection&lt;ClassDetails&gt;" href="javamethod:/stubs/Course.java#26_5">Course.getClasses(<wbr>)<wbr>&#160;:&#160;Collection&lt;ClassDetails&gt;</a> (3)
+                            </td>
+                        </tr>
+                                            <tr>
+                            <td align="right">10.</td>
+                            <td align="right">0%</td>
+                            <td style="padding-left:25px; text-indent:-25px;">                                <a class="tag" title="UniversityConnection.UniversityConnection()" href="javamethod:/stubs/UniversityConnection.java#16_5">UniversityConnection.UniversityConnection(<wbr>)<wbr></a> (5)
+                            </td>
+                        </tr>
+                                            <tr>
+                            <td align="right">11.</td>
+                            <td align="right">0%</td>
+                            <td style="padding-left:25px; text-indent:-25px;">                                <a class="tag" title="ClassDetails.toString()&#160;:&#160;String" href="javamethod:/stubs/ClassDetails.java#178_5">ClassDetails.toString(<wbr>)<wbr>&#160;:&#160;String</a> (3)
+                            </td>
+                        </tr>
+                                            <tr>
+                            <td align="right">12.</td>
+                            <td align="right">0%</td>
+                            <td style="padding-left:25px; text-indent:-25px;">                                <a class="tag" title="UniversityConnection.closeConnection()&#160;:&#160;void" href="javamethod:/stubs/UniversityConnection.java#55_5">UniversityConnection.closeConnection(<wbr>)<wbr>&#160;:&#160;void</a> (3)
+                            </td>
+                        </tr>
+                                            <tr>
+                            <td align="right">13.</td>
+                            <td align="right">0%</td>
+                            <td style="padding-left:25px; text-indent:-25px;">                                <a class="tag" title="ScheduleMakerController.sizeIsOne(Collection)&#160;:&#160;boolean" href="javamethod:/TestUnit/ScheduleMakerController.java#28_5">ScheduleMakerController.sizeIsOne(<wbr>Collection)<wbr>&#160;:&#160;boolean</a> (2)
+                            </td>
+                        </tr>
+                                            <tr>
+                            <td align="right">14.</td>
+                            <td align="right">0%</td>
+                            <td style="padding-left:25px; text-indent:-25px;">                                <a class="tag" title="ClassDetails.isAtTime(int)&#160;:&#160;boolean" href="javamethod:/stubs/ClassDetails.java#164_5">ClassDetails.isAtTime(<wbr>int)<wbr>&#160;:&#160;boolean</a> (3)
+                            </td>
+                        </tr>
+                                            <tr>
+                            <td align="right">15.</td>
+                            <td align="right">0%</td>
+                            <td style="padding-left:25px; text-indent:-25px;">                                <a class="tag" title="UniversityConnection.getInstance()&#160;:&#160;UniversityConnection" href="javamethod:/stubs/UniversityConnection.java#40_5">UniversityConnection.getInstance(<wbr>)<wbr>&#160;:&#160;UniversityConnection</a> (2)
+                            </td>
+                        </tr>
+                                            <tr>
+                            <td align="right">16.</td>
+                            <td align="right">0%</td>
+                            <td style="padding-left:25px; text-indent:-25px;">                                <a class="tag" title="ClassDetails.isAtDay(int)&#160;:&#160;boolean" href="javamethod:/stubs/ClassDetails.java#171_5">ClassDetails.isAtDay(<wbr>int)<wbr>&#160;:&#160;boolean</a> (2)
+                            </td>
+                        </tr>
+                                            <tr>
+                            <td align="right">17.</td>
+                            <td align="right">0%</td>
+                            <td style="padding-left:25px; text-indent:-25px;">                                <a class="tag" title="Time.Time(int,int,int,int,String)" href="javamethod:/stubs/Time.java#20_5">Time.Time(<wbr>int,<wbr>int,<wbr>int,<wbr>int,<wbr>String)<wbr></a> (1)
+                            </td>
+                        </tr>
+                                            <tr>
+                            <td align="right">18.</td>
+                            <td align="right">0%</td>
+                            <td style="padding-left:25px; text-indent:-25px;">                                <a class="tag" title="UniversityConnection.setSQL(String)&#160;:&#160;PreparedStatement" href="javamethod:/stubs/UniversityConnection.java#46_5">UniversityConnection.setSQL(<wbr>String)<wbr>&#160;:&#160;PreparedStatement</a> (2)
+                            </td>
+                        </tr>
+                                            <tr>
+                            <td align="right">19.</td>
+                            <td align="right">0%</td>
+                            <td style="padding-left:25px; text-indent:-25px;">                                <a class="tag" title="FacultyStaff.FacultyStaff(String,String,String)" href="javamethod:/stubs/FacultyStaff.java#10_5">FacultyStaff.FacultyStaff(<wbr>String,<wbr>String,<wbr>String)<wbr></a> (1)
+                            </td>
+                        </tr>
+                                            <tr>
+                            <td align="right">20.</td>
+                            <td align="right">0%</td>
+                            <td style="padding-left:25px; text-indent:-25px;">                                <a class="tag" title="UniversityConnection.executeQuery()&#160;:&#160;ResultSet" href="javamethod:/stubs/UniversityConnection.java#84_5">UniversityConnection.executeQuery(<wbr>)<wbr>&#160;:&#160;ResultSet</a> (1)
+                            </td>
+                        </tr>
+                                    </table>
+            </div>
+        </div>
+    
+    </div>
+</div>
+
+</body>
+</html>
